@@ -48,15 +48,4 @@
   year    = {2017},
 }
 
-@Article{kaplan2019siri,
-  author    = {Kaplan, Andreas and Haenlein, Michael},
-  title     = {Siri, Siri, in my hand: Who’s the fairest in the land? On the interpretations, illustrations, and implications of artificial intelligence},
-  number    = {1},
-  pages     = {15--25},
-  volume    = {62},
-  journal   = {Business Horizons},
-  publisher = {Elsevier},
-  year      = {2019},
-}
-
 @Comment{jabref-meta: databaseType:biblatex;}
