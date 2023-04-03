@@ -68,4 +68,14 @@
   year    = {2020},
 }
 
+@Article{shevlin2019limits,
+  author  = {Shevlin, Henry and Vold, Karina and Crosby, Matthew and Halina, Marta},
+  title   = {The limits of machine intelligence: Despite progress in machine intelligence, artificial general intelligence is still a major challenge},
+  number  = {10},
+  pages   = {e49177},
+  volume  = {20},
+  journal = {EMBO reports},
+  year    = {2019},
+}
+
 @Comment{jabref-meta: databaseType:biblatex;}
