@@ -213,6 +213,24 @@ Tijdens het onderzoek wordt er vaak verwezen naar verschillende artificial narro
 
 \subsection{Convolutionele neurale netwerken}
 
+Een convolutioneel neuraal netwerk is een type 'deep neural network' dat vaak gebruikt wordt voor beeld -en videoherkenning, natuurlijke taalverwerking en verschillende andere taken waarbij grote hoeveelheden data betrokken zijn. Het haalt zijn inspiratie uit de structuur en functie van het menselijk brein, specifiek de visuele cortex, wat betrokken is bij de visuele waarnemingen van een menselijk brein.
+
+Hun belangrijkste eigenschap is het kenmerken en herkennen van afbeeldingen zoals donkere of lichte plekken, randen in verschillende richtingen, patronen, etc.
+
+Een convolutioneel neuraal netwerk is ontworpen om automatisch te leren en te begrijpen uit bepaalde input. 
+
+Het werkt als volgt: 
+
+De eerste laag is meestal een convolutionele laag, die een reeks filters toepast op de invoergegevens. Elk filter is een kleine matrix van gewichten die over de ingevoerde gegevens schuift en op elke positie een puntproduct berekent. Het resultaat is een set feature maps die verschillende patronen in de invoergegevens benadrukken.
+
+De volgende laag is meestal een poollaag, die de grootte van de feature maps verkleint door de maximale of gemiddelde waarde in elke lokale regio te nemen. Dit helpt om het aantal parameters in het model te verminderen en het efficiënter te maken.
+
+Na verschillende convolutionele en pooling-lagen wordt de uitvoer afgevlakt en door een of meer volledig verbonden lagen geleid, die een classificatie- of regressietaak uitvoeren op basis van de geëxtraheerde kenmerken
+
+Naast deze basislagen zijn er ook andere soorten lagen die kunnen worden gebruikt, zoals uitvallagen om overfitting te voorkomen, batch-normalisatielagen om de trainingsstabiliteit te verbeteren en activeringslagen om niet-lineariteit in het model te introduceren.
+
+\cite{li2021survey}
+
 \subsection{Recurrente neurale netwerken}
 
 \subsection{Machine learning}

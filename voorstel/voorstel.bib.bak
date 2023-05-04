@@ -40,7 +40,7 @@
 }
 
 @Article{brynjolfsson2017artificial,
-  author  = {Brynjolfsson, Erik and Mcafee, ANDREW},
+  author  = {Brynjolfsson, Erik and Mcafee, Andrew},
   title   = {Artificial intelligence, for real},
   pages   = {1--31},
   volume  = {1},
@@ -57,6 +57,44 @@
   journal   = {Business Horizons},
   publisher = {Elsevier},
   year      = {2019},
+}
+
+@Article{benbya2020artificial,
+  author  = {Benbya, Hind and Davenport, Thomas H and Pachidi, Stella},
+  title   = {Artificial intelligence in organizations: Current state and future opportunities},
+  number  = {4},
+  volume  = {19},
+  journal = {MIS Quarterly Executive},
+  year    = {2020},
+}
+
+@Article{shevlin2019limits,
+  author  = {Shevlin, Henry and Vold, Karina and Crosby, Matthew and Halina, Marta},
+  title   = {The limits of machine intelligence: Despite progress in machine intelligence, artificial general intelligence is still a major challenge},
+  number  = {10},
+  pages   = {e49177},
+  volume  = {20},
+  journal = {EMBO reports},
+  year    = {2019},
+}
+
+@Article{lund2023chatting,
+  author    = {Lund, Brady D and Wang, Ting},
+  title     = {Chatting about ChatGPT: how may AI and GPT impact academia and libraries?},
+  journal   = {Library Hi Tech News},
+  publisher = {Emerald Publishing Limited},
+  year      = {2023},
+}
+
+@Article{huang2017imitating,
+  author    = {Huang, Tie-Jun},
+  title     = {Imitating the brain with neurocomputer a “new” way towards artificial general intelligence},
+  number    = {5},
+  pages     = {520--531},
+  volume    = {14},
+  journal   = {International Journal of Automation and Computing},
+  publisher = {Springer},
+  year      = {2017},
 }
 
 @Comment{jabref-meta: databaseType:biblatex;}
