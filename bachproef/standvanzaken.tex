@@ -213,7 +213,7 @@ Tijdens het onderzoek wordt er vaak verwezen naar verschillende artificial narro
 
 \subsection{Convolutionele neurale netwerken}
 
-Een convolutioneel neuraal netwerk is een type 'deep neural network' dat vaak gebruikt wordt voor beeld -en videoherkenning, natuurlijke taalverwerking en verschillende andere taken waarbij grote hoeveelheden data betrokken zijn. Het haalt zijn inspiratie uit de structuur en functie van het menselijk brein, specifiek de visuele cortex, wat betrokken is bij de visuele waarnemingen van een menselijk brein.
+Een convolutioneel neuraal netwerk is een type 'deep neural network' dat vaak gebruikt wordt voor beeld -en videoherkenning en verschillende andere taken waarbij grote hoeveelheden data betrokken zijn. Het haalt zijn inspiratie uit de structuur en functie van het menselijk brein, specifiek de visuele cortex, wat betrokken is bij de visuele waarnemingen van een menselijk brein.
 
 Hun belangrijkste eigenschap is het kenmerken en herkennen van afbeeldingen zoals donkere of lichte plekken, randen in verschillende richtingen, patronen, etc.
 
@@ -221,11 +221,11 @@ Een convolutioneel neuraal netwerk is ontworpen om automatisch te leren en te be
 
 Het werkt als volgt: 
 
-De eerste laag is meestal een convolutionele laag, die een reeks filters toepast op de invoergegevens. Elk filter is een kleine matrix van gewichten die over de ingevoerde gegevens schuift en op elke positie een puntproduct berekent. Het resultaat is een set feature maps die verschillende patronen in de invoergegevens benadrukken.
+De eerste laag is meestal een convolutionele laag, die een reeks filters toepast op de invoergegevens. Elke filter is een kleine matrix van gewichten die over de ingevoerde gegevens schuift en op elke positie een puntproduct berekent. Het resultaat is een set feature maps die verschillende patronen in de invoergegevens benadrukken.
 
 De volgende laag is meestal een poollaag, die de grootte van de feature maps verkleint door de maximale of gemiddelde waarde in elke lokale regio te nemen. Dit helpt om het aantal parameters in het model te verminderen en het efficiënter te maken.
 
-Na verschillende convolutionele en pooling-lagen wordt de uitvoer afgevlakt en door een of meer volledig verbonden lagen geleid, die een classificatie- of regressietaak uitvoeren op basis van de geëxtraheerde kenmerken
+Na verschillende convolutionele en pooling-lagen wordt de uitvoer afgevlakt en door een of meer volledig verbonden lagen geleid, die een classificatie- of regressietaak uitvoeren op basis van de geëxtraheerde kenmerken.
 
 Naast deze basislagen zijn er ook andere soorten lagen die kunnen worden gebruikt, zoals uitvallagen om overfitting te voorkomen, batch-normalisatielagen om de trainingsstabiliteit te verbeteren en activeringslagen om niet-lineariteit in het model te introduceren.
 
@@ -233,13 +233,43 @@ Naast deze basislagen zijn er ook andere soorten lagen die kunnen worden gebruik
 
 \subsection{Recurrente neurale netwerken}
 
+Een recurrent neuraal netwerk (RNN) is heel wat complexer dan een convolutioneel neuraal netwerk (CNN). 
+
+Een RNN onthoud de output van een node en voedt het resultaat terug aan het model, via deze manier kan het niet enkel rekening houden met de huidige input, maar ook met alle andere voorgaande inputs. Onder andere hierin verschillen ze van een CNN, dat informatie maar in één richting doorgeeft.
+
+Een RNN wordt meestal gebruikt als men patterns wil herkennen in een sequentie van data, bij een CNN is dit voornamelijk afbeeldingsdata.
+
+Een RNN komt vaak voor binnen taalmodelering, tekstgeneratie en spraakherkenning.
+
+\cite{schmidt2019recurrent}
+
 \subsection{Machine learning}
+
+Machine learning is een vakgebied dat zich richt op het ontwikkelen van algoritmen en statistische modellen waarmee computersystemen kunnen leren aan de hand van data en voorspellingen kunnen doen of beslissingen kunnen nemen op basis van diezelfde data, zonder expliciet geprogrammeerd te zijn. 
+
+Het omvat het trainen van een computersysteem om patronen in gegevens te herkennen en die patronen vervolgens te gebruiken om voorspellingen te doen of beslissingen te nemen over nieuwe gegevens. Machine learning wordt gebruikt in een breed scala aan toepassingen, waaronder beeld- en spraakherkenning en natuurlijke taalverwerking.
+
+\cite{biamonte2017quantum}
 
 \subsection{Deep learning}
 
+Deep learning is een subset van machine learning waarbij artificiele neurale netwerken worden getraind om patronen in gegevens te herkennen. Het wordt "diep" genoemd omdat het gaat om trainingsnetwerken met veel lagen, waardoor ze steeds complexere kenmerken uit input kunnen leren. Zo zijn CNN's en RNN's een voorbeeld van een manier van deep learning.
+
+De motivatie voor het gebruik van deeplearning in bijvoorbeeld computervisie of natuurlijke taalverwerking is dat het de creatie van complexere modellen mogelijk maakt die patronen in grote datasets kunnen leren en herkennen. Diepgaande leermodellen kunnen automatisch kenmerken leren van ongelabelde gegevens, wat kan leiden tot betere prestaties bij taken zoals beeldclassificatie en taalvertaling. Ook kunnen deep learning-modellen worden getraind op grote hoeveelheden gegevens, wat kan helpen om hun nauwkeurigheid en generalisatiemogelijkheden te verbeteren.
+
+\cite{yan2015deep}
+
 \subsection{Generatief antagonistennetwerk (deepfakes)}
 
-Beide uitleggen
+Deepfakes zijn een soort synthetische media die deep learning-algoritmen gebruiken om nepvideo's, afbeeldingen of audio-opnamen te maken die echt lijken. Ze omvatten het verwisselen van het gezicht van de ene persoon naar een andere persoon in een video of afbeelding, waardoor het lijkt alsof de persoon iets zegt of doet wat hij eigenlijk nooit heeft gedaan.
+
+\cite{mahmud2021deep}
+
+Een generatief antagonistennetwerk is een soort neuraal netwerk dat uit twee delen bestaat: een generator en een discriminator. De generator creëert nieuwe items, zoals afbeeldingen, terwijl de discriminator ze evalueert op authenticiteit. De twee delen worden samen getraind in een proces dat vijandige training wordt genoemd, waarbij de generator probeert meer realistische gegevens te creëren om de discriminator te misleiden, de discriminator probeert vervolgens correct te identificeren of de gegevens echt of nep zijn. GAN's worden gebruikt voor verschillende toepassingen, waaronder het genereren van afbeeldingen en video's.
+
+\cite{laino2022generative}
+
+Deepfakes maken ook gebruik van GAN's. Zo kunnen ze hun uitkomst als maar beter maken door zich te trainen op misleiding, en zo als maar meer realistische fakes te genereren.
 
 \subsection{natuurlijke taalverwerking (NLP)}
 
