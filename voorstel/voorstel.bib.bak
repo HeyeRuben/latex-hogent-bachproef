@@ -159,4 +159,115 @@
   year      = {2020},
 }
 
+@Article{laino2022generative,
+  author    = {Laino, Maria Elena and Cancian, Pierandrea and Politi, Letterio Salvatore and Della Porta, Matteo Giovanni and Saba, Luca and Savevski, Victor},
+  title     = {Generative adversarial networks in brain imaging: A narrative review},
+  number    = {4},
+  pages     = {83},
+  volume    = {8},
+  journal   = {Journal of Imaging},
+  publisher = {MDPI},
+  year      = {2022},
+}
+
+@Article{chowdhary2020natural,
+  author    = {Chowdhary, KR1442 and Chowdhary, KR},
+  title     = {Natural language processing},
+  pages     = {603--649},
+  journal   = {Fundamentals of artificial intelligence},
+  publisher = {Springer},
+  year      = {2020},
+}
+
+@Article{franccois2018introduction,
+  author    = {Fran{\c{c}}ois-Lavet, Vincent and Henderson, Peter and Islam, Riashat and Bellemare, Marc G and Pineau, Joelle and others},
+  title     = {An introduction to deep reinforcement learning},
+  number    = {3-4},
+  pages     = {219--354},
+  volume    = {11},
+  journal   = {Foundations and Trends{\textregistered} in Machine Learning},
+  publisher = {Now Publishers, Inc.},
+  year      = {2018},
+}
+
+@Article{voulodimos2018deep,
+  author    = {Voulodimos, Athanasios and Doulamis, Nikolaos and Doulamis, Anastasios and Protopapadakis, Eftychios and others},
+  title     = {Deep learning for computer vision: A brief review},
+  volume    = {2018},
+  journal   = {Computational intelligence and neuroscience},
+  publisher = {Hindawi},
+  year      = {2018},
+}
+
+@Article{buchanan1988fundamentals,
+  author    = {Buchanan, Bruce G and Smith, Reid G},
+  title     = {Fundamentals of expert systems},
+  number    = {1},
+  pages     = {23--58},
+  volume    = {3},
+  journal   = {Annual review of computer science},
+  publisher = {Annual Reviews 4139 El Camino Way, PO Box 10139, Palo Alto, CA 94303-0139, USA},
+  year      = {1988},
+}
+
+@Article{isinkaye2015recommendation,
+  author    = {Isinkaye, Folasade Olubusola and Folajimi, Yetunde O and Ojokoh, Bolande Adefowoke},
+  title     = {Recommendation systems: Principles, methods and evaluation},
+  number    = {3},
+  pages     = {261--273},
+  volume    = {16},
+  journal   = {Egyptian informatics journal},
+  publisher = {Elsevier},
+  year      = {2015},
+}
+
+@Article{hogan2021knowledge,
+  author    = {Hogan, Aidan and Blomqvist, Eva and Cochez, Michael and d’Amato, Claudia and Melo, Gerard de and Gutierrez, Claudio and Kirrane, Sabrina and Gayo, Jos{\'e} Emilio Labra and Navigli, Roberto and Neumaier, Sebastian and others},
+  title     = {Knowledge graphs},
+  number    = {4},
+  pages     = {1--37},
+  volume    = {54},
+  journal   = {ACM Computing Surveys (CSUR)},
+  publisher = {ACM New York, NY, USA},
+  year      = {2021},
+}
+
+@Article{basu2010use,
+  author  = {Basu, Jayanta Kumar and Bhattacharyya, Debnath and Kim, Tai-hoon},
+  title   = {Use of artificial neural network in pattern recognition},
+  number  = {2},
+  volume  = {4},
+  journal = {International journal of software engineering and its applications},
+  year    = {2010},
+}
+
+@Book{vaseghi2008advanced,
+  author    = {Vaseghi, Saeed V},
+  title     = {Advanced digital signal processing and noise reduction},
+  publisher = {John Wiley \& Sons},
+  year      = {2008},
+}
+
+@Article{gaikwad2010review,
+  author    = {Gaikwad, Santosh K and Gawali, Bharti W and Yannawar, Pravin},
+  title     = {A review on speech recognition technique},
+  number    = {3},
+  pages     = {16--24},
+  volume    = {10},
+  journal   = {International Journal of Computer Applications},
+  publisher = {International Journal of Computer Applications, 244 5 th Avenue,\# 1526, New~…},
+  year      = {2010},
+}
+
+@Article{benzeghiba2007automatic,
+  author    = {Benzeghiba, Mohamed and De Mori, Renato and Deroo, Olivier and Dupont, Stephane and Erbes, Teodora and Jouvet, Denis and Fissore, Luciano and Laface, Pietro and Mertins, Alfred and Ris, Christophe and others},
+  title     = {Automatic speech recognition and speech variability: A review},
+  number    = {10-11},
+  pages     = {763--786},
+  volume    = {49},
+  journal   = {Speech communication},
+  publisher = {Elsevier},
+  year      = {2007},
+}
+
 @Comment{jabref-meta: databaseType:biblatex;}
